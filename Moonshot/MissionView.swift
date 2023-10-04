@@ -39,9 +39,9 @@ struct MissionView: View {
                             .padding(.bottom, 5)
                     }
                     .padding(.horizontal)
-                   
+                    
                     ScrollView(.horizontal,showsIndicators: false) {
-                       
+                        
                         HStack {
                             ForEach(crew, id: \.role) { crewMember in
                                 NavigationLink {
